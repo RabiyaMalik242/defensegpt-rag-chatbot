@@ -238,7 +238,7 @@ military aircraft, radar systems, or defense technology instead.
 ## Author
 
 **Rabiya Malik**
-BS Software Engineering — Lahore Garrison University
+BS Software Engineering 
 AI/ML Engineering Intern @ DevelopersHub Corporation
 
 [![GitHub](https://img.shields.io/badge/GitHub-RabiyaMalik242-black?style=flat&logo=github)](https://github.com/RabiyaMalik242)
