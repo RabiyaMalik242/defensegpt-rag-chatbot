@@ -1,0 +1,35 @@
+# Environment
+.env
+*.env
+
+# FAISS index (large binary files)
+faiss_defense_index/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated knowledge base (rebuild by running dataset_generator.ipynb)
+data/
+
+# FAISS index (rebuild by running task4_defense_rag_lcel.ipynb)
+faiss_defense_index/
+
+# Logs
+logs/
+*.log
