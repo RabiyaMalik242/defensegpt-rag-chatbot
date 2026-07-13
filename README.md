@@ -1,4 +1,4 @@
-# DefenseGPT — Defense Technology Knowledge Assistant
+# DefenseGPT - Defense Technology Knowledge Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat&logo=python)
 ![LangChain](https://img.shields.io/badge/LangChain-1.x_LCEL-teal?style=flat)
@@ -7,9 +7,9 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat)
 
-> **DevelopersHub Corporation — AI/ML Engineering Internship | Task 4**
+> **DevelopersHub Corporation - AI/ML Engineering Internship**
 
-A context-aware Retrieval-Augmented Generation (RAG) chatbot specializing in defense technology, military aircraft, radar systems, UAVs, and Pakistani defense forces. Built with LangChain 1.x LCEL, FAISS vector search, and LLaMA-3.3-70b via Groq — deployed as an interactive Streamlit application.
+A context-aware Retrieval-Augmented Generation (RAG) chatbot specializing in defense technology, military aircraft, radar systems, UAVs, and Pakistani defense forces. Built with LangChain 1.x LCEL, FAISS vector search, and LLaMA-3.3-70b via Groq - deployed as an interactive Streamlit application.
 
 ---
 
@@ -18,20 +18,20 @@ A context-aware Retrieval-Augmented Generation (RAG) chatbot specializing in def
 Standard LLMs hallucinate technical specifications and forget conversation context. **DefenseGPT** solves both problems:
 
 1. **RAG (Retrieval-Augmented Generation)** — Every answer is grounded in a curated local knowledge base of 37 Wikipedia defense articles. The model cannot invent facts.
-2. **Conversational Memory** — `RunnableWithMessageHistory` maintains session-based memory, enabling natural multi-turn dialogue where follow-up questions like *"What about its radar system?"* are understood in context.
+2. **Conversational Memory** - `RunnableWithMessageHistory` maintains session-based memory, enabling natural multi-turn dialogue where follow-up questions like *"What about its radar system?"* are understood in context.
 
 ---
 
 ## Features
 
 - **Retrieval-Augmented Generation** using LangChain 1.x LCEL
-- **History-aware retriever** — reformulates follow-up questions before searching FAISS
-- **Local knowledge base** — 37 articles across 9 defense categories, built with a custom Wikipedia scraper
+- **History-aware retriever** - reformulates follow-up questions before searching FAISS
+- **Local knowledge base** - 37 articles across 9 defense categories, built with a custom Wikipedia scraper
 - **Session-based memory** with `RunnableWithMessageHistory`
 - **Source citations** with direct Wikipedia links on every answer
-- **Comparison queries** — structured side-by-side analysis (e.g. JF-17 vs F-16)
+- **Comparison queries** - structured side-by-side analysis (e.g. JF-17 vs F-16)
 - **Dark / Light mode** toggle
-- **Colored chat bubbles** — user (right, blue) and assistant (left, green)
+- **Colored chat bubbles** - user (right, blue) and assistant (left, green)
 - **Follow-up question suggestions** after each response
 - **Enter key** to send messages
 - Custom `DefenseGPT` system prompt with strict hallucination prevention
@@ -96,7 +96,7 @@ RunnableWithMessageHistory ← updates session memory
 
 ```
 defensegpt-rag-chatbot/
-├── dataset_generator.ipynb        # Run once — builds local knowledge base
+├── dataset_generator.ipynb        # Run once - builds local knowledge base
 ├── task4_defense_rag_lcel.ipynb   # Main RAG notebook (development)
 ├── app.py                         # Streamlit deployment
 ├── requirements.txt
@@ -120,7 +120,7 @@ defensegpt-rag-chatbot/
 
 ---
 
-## Setup & Installation
+## Setup and Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -190,7 +190,7 @@ F-16 Fighting Falcon:
 ```
 User: What is the current oil price?
 DefenseGPT: I couldn't find that in my knowledge base. Try asking about
-military aircraft, radar systems, or defense technology instead.
+military aircraft, radar systems or defense technology instead.
 ```
 
 ---
@@ -237,12 +237,13 @@ military aircraft, radar systems, or defense technology instead.
 
 ## Author
 
-**Rabiya Malik**
-BS Software Engineering 
+**Rabiya Malik** - 
+BS Software Engineering
+
 AI/ML Engineering Intern @ DevelopersHub Corporation
 
 [![GitHub](https://img.shields.io/badge/GitHub-RabiyaMalik242-black?style=flat&logo=github)](https://github.com/RabiyaMalik242)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/rabiya-malik)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/rabiya-malik-325848336/)
 
 ---
 
